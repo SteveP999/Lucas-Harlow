@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lucas Harlow — New Age Instrumental Piano</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink:      #07090F;
+  --deep:     #0D1220;
+  --mid:      #141C2E;
+  --blue:     #7BA3CC;
+  --blue-lt:  #A8C4DF;
+  --pearl:    #CDD8E8;
+  --silver:   #8A9BB0;
+  --white:    #EEF2F7;
+  --gold:     #C9A96E;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--ink);
+  color: var(--pearl);
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.8;
+  overflow-x: hidden;
+}
+
+/* ── NAV ── */
+#topnav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 2.5rem; height: 64px;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background 0.4s, border-color 0.4s;
+}
+#topnav.scrolled {
+  background: rgba(7,9,15,0.92);
+  border-color: rgba(123,163,204,0.15);
+  backdrop-filter: blur(12px);
+}
+.nav-logo { height: 34px; width: auto; mix-blend-mode: screen; filter: brightness(2.2); }
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+.nav-links a {
+  color: var(--silver); text-decoration: none;
+  font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase;
+  transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--blue-lt); }
+
+/* ── HERO ── */
+.hero {
+  position: relative; height: 100vh; min-height: 600px;
+  display: flex; align-items: flex-end; overflow: hidden;
+}
+.hero-bg {
+  position: absolute; inset: 0;
+  background: url('https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%20DAYDREAMS%20-%20Album%20Cover.png') center center / cover no-repeat;
+  filter: blur(3px) brightness(0.55);
+  transform: scale(1.05);
+}
+.hero-vignette {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(to bottom, rgba(7,9,15,0.55) 0%, rgba(7,9,15,0.05) 40%, rgba(7,9,15,0.7) 75%, rgba(7,9,15,0.98) 100%),
+    linear-gradient(to right, rgba(7,9,15,0.65) 0%, transparent 60%);
+}
+.hero-content {
+  position: relative; z-index: 2;
+  padding: 0 3.5rem 5.5rem; max-width: 560px;
+}
+.hero-wordmark { margin-bottom: 1.4rem; }
+.hero-wordmark img { height: 56px; width: auto; mix-blend-mode: screen; filter: brightness(2.5); }
+.hero-tagline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+  font-style: italic; color: var(--white); opacity: 0.85;
+  margin-bottom: 2rem;
+}
+.hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
+.cta-primary {
+  background: var(--blue); color: var(--ink); border: none;
+  padding: 0.75rem 2rem;
+  font-family: 'Jost', sans-serif; font-size: 0.65rem; font-weight: 400;
+  letter-spacing: 0.18em; text-transform: uppercase; cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+.cta-primary:hover { background: var(--blue-lt); transform: translateY(-1px); }
+.cta-secondary {
+  background: transparent; color: var(--pearl);
+  border: 1px solid rgba(123,163,204,0.4);
+  padding: 0.75rem 2rem; text-decoration: none; display: inline-block;
+  font-family: 'Jost', sans-serif; font-size: 0.65rem; font-weight: 300;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  transition: border-color 0.2s, color 0.2s;
+}
+.cta-secondary:hover { border-color: var(--blue-lt); color: var(--blue-lt); }
+
+/* ── SECTION COMMON ── */
+.section { padding: 6rem 3.5rem; max-width: 1100px; margin: 0 auto; }
+.eyebrow {
+  font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase;
+  color: var(--blue); margin-bottom: 0.6rem;
+}
+.section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 4vw, 3rem); font-weight: 300;
+  color: var(--white); line-height: 1.15; margin-bottom: 0.5rem;
+}
+.divider {
+  width: 40px; height: 1px;
+  background: linear-gradient(to right, var(--blue), transparent);
+  margin: 1.5rem 0 2.5rem;
+}
+
+/* ── ALBUM SECTION ── */
+.album-section { background: var(--deep); }
+.album-wrap { padding: 6rem 3.5rem; max-width: 1100px; margin: 0 auto; }
+.album-layout {
+  display: grid; grid-template-columns: 280px 1fr;
+  gap: 4rem; align-items: start;
+}
+.album-cover-img {
+  width: 100%; border-radius: 4px;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.6);
+}
+.album-meta { padding-top: 0.5rem; }
+.album-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem); font-weight: 300;
+  color: var(--white); letter-spacing: 0.08em; text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+.album-year { color: var(--silver); font-size: 0.75rem; letter-spacing: 0.2em; margin-bottom: 2rem; }
+
+/* ── TRACK LIST ── */
+.track-row {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(123,163,204,0.08);
+  cursor: pointer;
+  transition: background 0.15s;
+  border-radius: 4px;
+}
+.track-row:hover { background: rgba(123,163,204,0.05); }
+.track-row.playing { background: rgba(123,163,204,0.1); }
+.track-thumb {
+  width: 44px; height: 44px; object-fit: cover;
+  border-radius: 3px; flex-shrink: 0;
+}
+.track-info { flex: 1; min-width: 0; }
+.track-num { color: var(--silver); font-size: 0.65rem; letter-spacing: 0.15em; margin-right: 0.6rem; }
+.track-name { color: var(--pearl); font-size: 0.9rem; }
+.track-play-btn {
+  background: none; border: 1px solid rgba(123,163,204,0.3);
+  color: var(--blue); width: 32px; height: 32px;
+  border-radius: 50%; cursor: pointer; flex-shrink: 0;
+  font-size: 0.6rem; display: flex; align-items: center; justify-content: center;
+  padding-left: 2px;
+  transition: background 0.2s, color 0.2s;
+}
+.track-play-btn:hover, .track-row.playing .track-play-btn {
+  background: var(--blue); color: var(--ink);
+}
+
+/* ── PLAYER BAR ── */
+#player-bar {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+  background: rgba(13,18,32,0.97);
+  border-top: 1px solid rgba(123,163,204,0.15);
+  backdrop-filter: blur(16px);
+  display: none;
+  padding: 0.75rem 2rem;
+  align-items: center; gap: 1.5rem;
+}
+#player-bar.visible { display: flex; }
+#pb-art { width: 44px; height: 44px; object-fit: cover; border-radius: 3px; flex-shrink: 0; }
+#pb-info { min-width: 0; flex: 0 0 180px; }
+#pb-title { color: var(--white); font-size: 0.85rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#pb-album { color: var(--silver); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; }
+.pb-controls { display: flex; align-items: center; gap: 0.75rem; }
+#pb-play {
+  width: 42px; height: 42px; border-radius: 50%;
+  background: var(--blue); border: none; color: var(--ink);
+  font-size: 0.85rem; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  padding-left: 2px;
+  transition: background 0.2s;
+}
+#pb-play:hover { background: var(--blue-lt); }
+.pb-skip {
+  background: none; border: none; color: var(--silver);
+  font-size: 0.7rem; cursor: pointer; transition: color 0.2s;
+}
+.pb-skip:hover { color: var(--blue-lt); }
+.pb-progress { flex: 1; display: flex; align-items: center; gap: 0.75rem; }
+.pb-time { color: var(--silver); font-size: 0.7rem; flex-shrink: 0; }
+.pb-bar {
+  flex: 1; height: 3px; background: rgba(123,163,204,0.2);
+  border-radius: 2px; cursor: pointer; position: relative;
+}
+.pb-fill { height: 100%; background: var(--blue); border-radius: 2px; width: 0; transition: width 0.25s linear; }
+.pb-vol { width: 80px; accent-color: var(--blue); }
+
+/* ── ABOUT ── */
+.about-section { padding: 6rem 3.5rem; max-width: 700px; margin: 0 auto; }
+.about-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1rem, 1.8vw, 1.15rem);
+  color: var(--pearl); opacity: 0.85; line-height: 1.9;
+}
+
+/* ── FOOTER ── */
+footer {
+  text-align: center; padding: 2.5rem 2rem;
+  border-top: 1px solid rgba(123,163,204,0.1);
+  color: var(--silver); font-size: 0.7rem; letter-spacing: 0.12em;
+}
+footer a { color: var(--blue); text-decoration: none; }
+footer a:hover { color: var(--blue-lt); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .hero-content { padding: 0 1.5rem 4rem; }
+  .section, .album-wrap, .about-section { padding: 4rem 1.5rem; }
+  .album-layout { grid-template-columns: 1fr; gap: 2rem; }
+  .album-cover-img { max-width: 220px; }
+  #topnav { padding: 0 1.25rem; }
+  .nav-links { gap: 1.2rem; }
+  #player-bar { padding: 0.6rem 1rem; gap: 0.75rem; }
+  #pb-info { flex: 0 0 120px; }
+  .pb-vol { display: none; }
+}
+</style>
+  <link rel="manifest" href="manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Lucas Harlow">
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/ChatGPT%20Image%20Apr%201%2C%202026%2C%2003_20_52%20PM.png">
+  <meta name="theme-color" content="#7BA3CC">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="topnav">
+  <img class="nav-logo" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/ChatGPT%20Image%20Apr%201%2C%202026%2C%2003_20_52%20PM.png" alt="Lucas Harlow">
+  <ul class="nav-links">
+    <li><a href="#album">Daydreams</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="https://stevep999.github.io/Hello-Texas-Records/" target="_blank">Label</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-vignette"></div>
+  <div class="hero-content">
+    <div class="hero-wordmark">
+      <img src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/ChatGPT%20Image%20Apr%201%2C%202026%2C%2003_20_52%20PM.png" alt="Lucas Harlow">
+    </div>
+    <p class="hero-tagline">Twelve pieces of sky. One unbroken breath.</p>
+    <div class="hero-ctas">
+      <button class="cta-primary" onclick="document.getElementById('album').scrollIntoView({behavior:'smooth'})">Listen Now</button>
+      <a class="cta-secondary" href="https://stevep999.github.io/Hello-Texas-Records/" target="_blank">Hello Texas Records</a>
+    </div>
+  </div>
+</section>
+
+<!-- ALBUM -->
+<section class="album-section" id="album">
+  <div class="album-wrap">
+    <p class="eyebrow">Full Album</p>
+    <h2 class="section-title">Daydreams</h2>
+    <div class="divider"></div>
+    <div class="album-layout">
+      <div>
+        <img class="album-cover-img" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%20DAYDREAMS%20-%20Album%20Cover.png" alt="Daydreams Album Cover">
+      </div>
+      <div class="album-meta">
+        <div class="album-name">Daydreams</div>
+        <div class="album-year">2026 &nbsp;·&nbsp; New Age Instrumental Piano</div>
+        <div class="track-list" id="track-list">
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/gu9xec1p2tki4vzdfglap/Lucas-Harlow-01-First-Light.mp3?rlkey=53mo20k75q1pn3fj6oeozf3t4&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2001%20-%20First%20Light%20%28Song%20Cover%29.png" data-title="First Light">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2001%20-%20First%20Light%20%28Song%20Cover%29.png" alt="First Light">
+        <div class="track-info">
+          <span class="track-num">01</span>
+          <span class="track-name">First Light</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play First Light">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/zfrg48xnssr20xfq0vdsv/Lucas-Harlow-02-Drifting.mp3?rlkey=xu08zicitzjidgemzk6at5hmf&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2002%20-%20Drifting%20%28Song%20Cover%29.png" data-title="Drifting">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2002%20-%20Drifting%20%28Song%20Cover%29.png" alt="Drifting">
+        <div class="track-info">
+          <span class="track-num">02</span>
+          <span class="track-name">Drifting</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Drifting">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/az19ubjpvadhx0082hwd5/Lucas-Harlow-03-Open-Sky.mp3?rlkey=3bd49msfdq0oec87it2042iv5&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2003%20-%20Open%20Sky%20%28Song%20Cover%29.png" data-title="Open Sky">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2003%20-%20Open%20Sky%20%28Song%20Cover%29.png" alt="Open Sky">
+        <div class="track-info">
+          <span class="track-num">03</span>
+          <span class="track-name">Open Sky</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Open Sky">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/9ljz46j0qyieurlw9wsgz/Lucas-Harlow-04-Stillwater.mp3?rlkey=mgr2ixg4m8i7upyfx549cmu1z&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2004%20-%20Stillwater%20%28Song%20Cover%29.png" data-title="Stillwater">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2004%20-%20Stillwater%20%28Song%20Cover%29.png" alt="Stillwater">
+        <div class="track-info">
+          <span class="track-num">04</span>
+          <span class="track-name">Stillwater</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Stillwater">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/jwoh4m3v4w1hj9ibe7vnv/Lucas-Harlow-05-Awaken.mp3?rlkey=2aw2ftgw1mkkxtj9q31p41fnk&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2005%20-%20Awaken%20%28Song%20Cover%29.png" data-title="Awaken">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2005%20-%20Awaken%20%28Song%20Cover%29.png" alt="Awaken">
+        <div class="track-info">
+          <span class="track-num">05</span>
+          <span class="track-name">Awaken</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Awaken">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/nqet78q1dv38hf8npzjfk/Lucas-Harlow-06-Soft-Horizon.mp3?rlkey=vls1sw0wdt3il9evku49t7s8g&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2006%20-%20Soft%20Horizon%20%28Song%20Cover%29.png" data-title="Soft Horizon">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2006%20-%20Soft%20Horizon%20%28Song%20Cover%29.png" alt="Soft Horizon">
+        <div class="track-info">
+          <span class="track-num">06</span>
+          <span class="track-name">Soft Horizon</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Soft Horizon">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/jpte9kkxagibuu7hqt3t6/Lucas-Harlow-07-Carry-On.mp3?rlkey=l99gy40rfx7j0twfpictu6plb&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2007%20-%20Carry%20On%20%28Song%20Cover%29.png" data-title="Carry On">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2007%20-%20Carry%20On%20%28Song%20Cover%29.png" alt="Carry On">
+        <div class="track-info">
+          <span class="track-num">07</span>
+          <span class="track-name">Carry On</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Carry On">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/ry6d6bl3biiera11rhbe8/Lucas-Harlow-08-Golden-Air.mp3?rlkey=gjvtod5ovm0vnze8stri8v7h8&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2008%20-%20Golden%20Air%20%28Song%20Cover%29.png" data-title="Golden Air">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2008%20-%20Golden%20Air%20%28Song%20Cover%29.png" alt="Golden Air">
+        <div class="track-info">
+          <span class="track-num">08</span>
+          <span class="track-name">Golden Air</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Golden Air">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/bwkav8vj08kv2tf507b5f/Lucas-Harlow-09-Quiet-Path.mp3?rlkey=b56lwi9pe7i5l5rhf430jdq1s&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2009%20-%20Quiet%20Path%20%28Song%20Cover%29.png" data-title="Quiet Path">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2009%20-%20Quiet%20Path%20%28Song%20Cover%29.png" alt="Quiet Path">
+        <div class="track-info">
+          <span class="track-num">09</span>
+          <span class="track-name">Quiet Path</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Quiet Path">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/1gj8jf7yxqjt2olbn9cuz/Lucas-Harlow-10-Still-in-Motion.mp3?rlkey=kjkxhw0c7734lg77ci9jxliuh&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2010%20-%20Still%20In%20Motion%20%28Song%20Cover%29.png" data-title="Still in Motion">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2010%20-%20Still%20In%20Motion%20%28Song%20Cover%29.png" alt="Still in Motion">
+        <div class="track-info">
+          <span class="track-num">10</span>
+          <span class="track-name">Still in Motion</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Still in Motion">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/65324zr7hizkhhkky9y9l/Lucas-Harlow-11-Home-Again.mp3?rlkey=myrckbnyq5k1niiwc0d49r68p&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2011%20-%20Home%20Again%20%28Song%20Cover%29.png" data-title="Home Again">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2011%20-%20Home%20Again%20%28Song%20Cover%29.png" alt="Home Again">
+        <div class="track-info">
+          <span class="track-num">11</span>
+          <span class="track-name">Home Again</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Home Again">&#9654;</button>
+      </div>
+      <div class="track-row" data-src="https://www.dropbox.com/scl/fi/wdpd01cqpcgcz9gsh7s5y/Lucas-Harlow-12-Daydreams.mp3?rlkey=qeo5kzcb7xd3hevdw0nz3mh41&raw=1" data-cover="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2012%20-%20Daydreams%20%28Song%20Cover%29.png" data-title="Daydreams">
+        <img class="track-thumb" src="https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2012%20-%20Daydreams%20%28Song%20Cover%29.png" alt="Daydreams">
+        <div class="track-info">
+          <span class="track-num">12</span>
+          <span class="track-name">Daydreams</span>
+        </div>
+        <button class="track-play-btn" aria-label="Play Daydreams">&#9654;</button>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <p class="eyebrow">About the Artist</p>
+  <h2 class="section-title">Lucas Harlow</h2>
+  <div class="divider"></div>
+  <p class="about-text">
+    Lucas Harlow composes music that exists between silence and sound — where a single piano note can hold an entire afternoon. His debut album <em>Daydreams</em> is an invitation to slow down, breathe, and let the mind wander somewhere beautiful. A Hello Texas Records artist.
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2026 Lucas Harlow &nbsp;&middot;&nbsp; <a href="https://stevep999.github.io/Hello-Texas-Records/" target="_blank">Hello Texas Records</a></p>
+</footer>
+
+<!-- PLAYER BAR -->
+<div id="player-bar">
+  <img id="pb-art" src="" alt="">
+  <div id="pb-info">
+    <div id="pb-title">—</div>
+    <div id="pb-album">Daydreams</div>
+  </div>
+  <div class="pb-controls">
+    <button class="pb-skip" id="pb-prev">&#9664;&#9664;</button>
+    <button id="pb-play">&#9654;</button>
+    <button class="pb-skip" id="pb-next">&#9654;&#9654;</button>
+  </div>
+  <div class="pb-progress">
+    <span class="pb-time" id="pb-cur">0:00</span>
+    <div class="pb-bar" id="pb-bar"><div class="pb-fill" id="pb-fill"></div></div>
+    <span class="pb-time" id="pb-dur">0:00</span>
+  </div>
+  <input type="range" class="pb-vol" id="pb-vol" min="0" max="1" step="0.02" value="0.85">
+</div>
+
+<script>
+const TRACKS = [
+  { num: '01', title: 'First Light', src: 'https://www.dropbox.com/scl/fi/gu9xec1p2tki4vzdfglap/Lucas-Harlow-01-First-Light.mp3?rlkey=53mo20k75q1pn3fj6oeozf3t4&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2001%20-%20First%20Light%20%28Song%20Cover%29.png' },
+  { num: '02', title: 'Drifting', src: 'https://www.dropbox.com/scl/fi/zfrg48xnssr20xfq0vdsv/Lucas-Harlow-02-Drifting.mp3?rlkey=xu08zicitzjidgemzk6at5hmf&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2002%20-%20Drifting%20%28Song%20Cover%29.png' },
+  { num: '03', title: 'Open Sky', src: 'https://www.dropbox.com/scl/fi/az19ubjpvadhx0082hwd5/Lucas-Harlow-03-Open-Sky.mp3?rlkey=3bd49msfdq0oec87it2042iv5&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2003%20-%20Open%20Sky%20%28Song%20Cover%29.png' },
+  { num: '04', title: 'Stillwater', src: 'https://www.dropbox.com/scl/fi/9ljz46j0qyieurlw9wsgz/Lucas-Harlow-04-Stillwater.mp3?rlkey=mgr2ixg4m8i7upyfx549cmu1z&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2004%20-%20Stillwater%20%28Song%20Cover%29.png' },
+  { num: '05', title: 'Awaken', src: 'https://www.dropbox.com/scl/fi/jwoh4m3v4w1hj9ibe7vnv/Lucas-Harlow-05-Awaken.mp3?rlkey=2aw2ftgw1mkkxtj9q31p41fnk&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2005%20-%20Awaken%20%28Song%20Cover%29.png' },
+  { num: '06', title: 'Soft Horizon', src: 'https://www.dropbox.com/scl/fi/nqet78q1dv38hf8npzjfk/Lucas-Harlow-06-Soft-Horizon.mp3?rlkey=vls1sw0wdt3il9evku49t7s8g&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2006%20-%20Soft%20Horizon%20%28Song%20Cover%29.png' },
+  { num: '07', title: 'Carry On', src: 'https://www.dropbox.com/scl/fi/jpte9kkxagibuu7hqt3t6/Lucas-Harlow-07-Carry-On.mp3?rlkey=l99gy40rfx7j0twfpictu6plb&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2007%20-%20Carry%20On%20%28Song%20Cover%29.png' },
+  { num: '08', title: 'Golden Air', src: 'https://www.dropbox.com/scl/fi/ry6d6bl3biiera11rhbe8/Lucas-Harlow-08-Golden-Air.mp3?rlkey=gjvtod5ovm0vnze8stri8v7h8&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2008%20-%20Golden%20Air%20%28Song%20Cover%29.png' },
+  { num: '09', title: 'Quiet Path', src: 'https://www.dropbox.com/scl/fi/bwkav8vj08kv2tf507b5f/Lucas-Harlow-09-Quiet-Path.mp3?rlkey=b56lwi9pe7i5l5rhf430jdq1s&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2009%20-%20Quiet%20Path%20%28Song%20Cover%29.png' },
+  { num: '10', title: 'Still in Motion', src: 'https://www.dropbox.com/scl/fi/1gj8jf7yxqjt2olbn9cuz/Lucas-Harlow-10-Still-in-Motion.mp3?rlkey=kjkxhw0c7734lg77ci9jxliuh&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2010%20-%20Still%20In%20Motion%20%28Song%20Cover%29.png' },
+  { num: '11', title: 'Home Again', src: 'https://www.dropbox.com/scl/fi/65324zr7hizkhhkky9y9l/Lucas-Harlow-11-Home-Again.mp3?rlkey=myrckbnyq5k1niiwc0d49r68p&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2011%20-%20Home%20Again%20%28Song%20Cover%29.png' },
+  { num: '12', title: 'Daydreams', src: 'https://www.dropbox.com/scl/fi/wdpd01cqpcgcz9gsh7s5y/Lucas-Harlow-12-Daydreams.mp3?rlkey=qeo5kzcb7xd3hevdw0nz3mh41&raw=1', cover: 'https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/Lucas%20Harlow%20-%2012%20-%20Daydreams%20%28Song%20Cover%29.png' },
+];
+
+let currentIdx = -1;
+const aud = new Audio();
+aud.volume = 0.85;
+
+const pbBar  = document.getElementById('player-bar');
+const pbPlay = document.getElementById('pb-play');
+const pbPrev = document.getElementById('pb-prev');
+const pbNext = document.getElementById('pb-next');
+const pbArt  = document.getElementById('pb-art');
+const pbTitle= document.getElementById('pb-title');
+const pbCur  = document.getElementById('pb-cur');
+const pbDur  = document.getElementById('pb-dur');
+const pbFill = document.getElementById('pb-fill');
+const pbBarEl= document.getElementById('pb-bar');
+const pbVol  = document.getElementById('pb-vol');
+
+function fmt(s) {
+  if (!isFinite(s)) return '0:00';
+  const m = Math.floor(s/60), sec = Math.floor(s%60);
+  return m + ':' + (sec < 10 ? '0' : '') + sec;
+}
+
+function setActive(idx) {
+  document.querySelectorAll('.track-row').forEach((r,i) => {
+    r.classList.toggle('playing', i === idx);
+    r.querySelector('.track-play-btn').innerHTML = i === idx && !aud.paused ? '&#9646;&#9646;' : '&#9654;';
+  });
+}
+
+function loadTrack(idx) {
+  currentIdx = ((idx % TRACKS.length) + TRACKS.length) % TRACKS.length;
+  const t = TRACKS[currentIdx];
+  aud.src = t.src;
+  pbArt.src = t.cover;
+  pbTitle.textContent = t.title;
+  pbBar.classList.add('visible');
+  setActive(currentIdx);
+}
+
+function playTrack(idx) {
+  loadTrack(idx);
+  aud.play().catch(()=>{});
+  pbPlay.innerHTML = '&#9646;&#9646;';
+}
+
+// Click on track row
+document.querySelectorAll('.track-row').forEach((row, idx) => {
+  row.addEventListener('click', () => {
+    if (currentIdx === idx && !aud.paused) { aud.pause(); pbPlay.innerHTML = '&#9654;'; setActive(-1); }
+    else { playTrack(idx); }
+  });
+});
+
+pbPlay.addEventListener('click', () => {
+  if (currentIdx < 0) { playTrack(0); return; }
+  if (aud.paused) { aud.play(); pbPlay.innerHTML = '&#9646;&#9646;'; setActive(currentIdx); }
+  else { aud.pause(); pbPlay.innerHTML = '&#9654;'; setActive(-1); }
+});
+
+pbPrev.addEventListener('click', () => playTrack(currentIdx - 1));
+pbNext.addEventListener('click', () => playTrack(currentIdx + 1));
+aud.addEventListener('ended', () => playTrack(currentIdx + 1));
+
+aud.addEventListener('timeupdate', () => {
+  if (!aud.duration) return;
+  const pct = (aud.currentTime / aud.duration) * 100;
+  pbFill.style.width = pct + '%';
+  pbCur.textContent = fmt(aud.currentTime);
+  pbDur.textContent = fmt(aud.duration);
+});
+
+pbBarEl.addEventListener('click', e => {
+  const r = pbBarEl.getBoundingClientRect();
+  aud.currentTime = ((e.clientX - r.left) / r.width) * aud.duration;
+});
+
+pbVol.addEventListener('input', () => { aud.volume = pbVol.value; });
+
+// Nav scroll effect
+window.addEventListener('scroll', () => {
+  document.getElementById('topnav').classList.toggle('scrolled', window.scrollY > 40);
+});
+</script>
+</body>
+</html>

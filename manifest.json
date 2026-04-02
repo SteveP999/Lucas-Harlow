@@ -1,0 +1,21 @@
+{
+  "name": "Lucas Harlow",
+  "short_name": "Lucas Harlow",
+  "description": "New Age Instrumental Piano",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07090F",
+  "theme_color": "#7BA3CC",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/ChatGPT%20Image%20Apr%201%2C%202026%2C%2003_20_52%20PM.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/ChatGPT%20Image%20Apr%201%2C%202026%2C%2003_20_52%20PM.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
