@@ -1,7 +1,10 @@
 {
-  "title": "The Light Between Us",
+  "title": "Where the Light Stayed",
   "artist": "Lucas Harlow",
   "album": "Yearning",
-  "image": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-the-light-between-us-cover.png",
-  "audio": "https://www.dropbox.com/scl/fi/e3lww3yvkxkjobis6bnf5/11-The-Light-Between-Us-Mastered-MP3.mp3?rlkey=ogz1nz8muxcicsbi46tf88bp7&raw=1"
+  "type": "Latest Single",
+  "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-where-the-light-stayed-cover.png",
+  "image": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-where-the-light-stayed-cover.png",
+  "audio": "https://www.dropbox.com/scl/fi/6lbt6f7aju95mqwvv7mm7/14-Where-the-Light-Stayed-Mastered-MP3.mp3?rlkey=pxgumpojrig7tz7wdo19ve5a0&raw=1",
+  "audioSrc": "https://www.dropbox.com/scl/fi/6lbt6f7aju95mqwvv7mm7/14-Where-the-Light-Stayed-Mastered-MP3.mp3?rlkey=pxgumpojrig7tz7wdo19ve5a0&raw=1"
 }
