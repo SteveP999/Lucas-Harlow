@@ -5,11 +5,12 @@
     "title": "First Light",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-first-light-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/gu9xec1p2tki4vzdfglap/Lucas-Harlow-01-First-Light.mp3?rlkey=53mo20k75q1pn3fj6oeozf3t4&raw=1"
+    "cover": "images/covers/lucas-harlow-first-light-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/gu9xec1p2tki4vzdfglap/Lucas-Harlow-01-First-Light.mp3?rlkey=53mo20k75q1pn3fj6oeozf3t4&raw=1",
+    "videos": []
   },
   {
     "id": "drifting",
@@ -17,11 +18,12 @@
     "title": "Drifting",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-drifting-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/zfrg48xnssr20xfq0vdsv/Lucas-Harlow-02-Drifting.mp3?rlkey=xu08zicitzjidgemzk6at5hmf&raw=1"
+    "cover": "images/covers/lucas-harlow-drifting-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/zfrg48xnssr20xfq0vdsv/Lucas-Harlow-02-Drifting.mp3?rlkey=xu08zicitzjidgemzk6at5hmf&raw=1",
+    "videos": []
   },
   {
     "id": "open_sky",
@@ -29,11 +31,12 @@
     "title": "Open Sky",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-open sky-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/az19ubjpvadhx0082hwd5/Lucas-Harlow-03-Open-Sky.mp3?rlkey=3bd49msfdq0oec87it2042iv5&raw=1"
+    "cover": "images/covers/lucas-harlow-open sky-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/az19ubjpvadhx0082hwd5/Lucas-Harlow-03-Open-Sky.mp3?rlkey=3bd49msfdq0oec87it2042iv5&raw=1",
+    "videos": []
   },
   {
     "id": "stillwater",
@@ -41,11 +44,12 @@
     "title": "Stillwater",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-stillwater-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/9ljz46j0qyieurlw9wsgz/Lucas-Harlow-04-Stillwater.mp3?rlkey=mgr2ixg4m8i7upyfx549cmu1z&raw=1"
+    "cover": "images/covers/lucas-harlow-stillwater-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/9ljz46j0qyieurlw9wsgz/Lucas-Harlow-04-Stillwater.mp3?rlkey=mgr2ixg4m8i7upyfx549cmu1z&raw=1",
+    "videos": []
   },
   {
     "id": "awaken",
@@ -53,11 +57,12 @@
     "title": "Awaken",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-awaken-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/jwoh4m3v4w1hj9ibe7vnv/Lucas-Harlow-05-Awaken.mp3?rlkey=2aw2ftgw1mkkxtj9q31p41fnk&raw=1"
+    "cover": "images/covers/lucas-harlow-awaken-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/jwoh4m3v4w1hj9ibe7vnv/Lucas-Harlow-05-Awaken.mp3?rlkey=2aw2ftgw1mkkxtj9q31p41fnk&raw=1",
+    "videos": []
   },
   {
     "id": "soft_horizon",
@@ -65,11 +70,12 @@
     "title": "Soft Horizon",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-soft-horizon-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/nqet78q1dv38hf8npzjfk/Lucas-Harlow-06-Soft-Horizon.mp3?rlkey=vls1sw0wdt3il9evku49t7s8g&raw=1"
+    "cover": "images/covers/lucas-harlow-soft-horizon-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/nqet78q1dv38hf8npzjfk/Lucas-Harlow-06-Soft-Horizon.mp3?rlkey=vls1sw0wdt3il9evku49t7s8g&raw=1",
+    "videos": []
   },
   {
     "id": "carry_on",
@@ -77,11 +83,12 @@
     "title": "Carry On",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-carry-on-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/jpte9kkxagibuu7hqt3t6/Lucas-Harlow-07-Carry-On.mp3?rlkey=l99gy40rfx7j0twfpictu6plb&raw=1"
+    "cover": "images/covers/lucas-harlow-carry-on-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/jpte9kkxagibuu7hqt3t6/Lucas-Harlow-07-Carry-On.mp3?rlkey=l99gy40rfx7j0twfpictu6plb&raw=1",
+    "videos": []
   },
   {
     "id": "golden_air",
@@ -89,11 +96,12 @@
     "title": "Golden Air",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-golden-air-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/ry6d6bl3biiera11rhbe8/Lucas-Harlow-08-Golden-Air.mp3?rlkey=gjvtod5ovm0vnze8stri8v7h8&raw=1"
+    "cover": "images/covers/lucas-harlow-golden-air-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/ry6d6bl3biiera11rhbe8/Lucas-Harlow-08-Golden-Air.mp3?rlkey=gjvtod5ovm0vnze8stri8v7h8&raw=1",
+    "videos": []
   },
   {
     "id": "quiet_path",
@@ -101,11 +109,12 @@
     "title": "Quiet Path",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-quiet-path-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/bwkav8vj08kv2tf507b5f/Lucas-Harlow-09-Quiet-Path.mp3?rlkey=b56lwi9pe7i5l5rhf430jdq1s&raw=1"
+    "cover": "images/covers/lucas-harlow-quiet-path-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/bwkav8vj08kv2tf507b5f/Lucas-Harlow-09-Quiet-Path.mp3?rlkey=b56lwi9pe7i5l5rhf430jdq1s&raw=1",
+    "videos": []
   },
   {
     "id": "still_in_motion",
@@ -113,11 +122,12 @@
     "title": "Still in Motion",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-still-in-motion-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/1gj8jf7yxqjt2olbn9cuz/Lucas-Harlow-10-Still-in-Motion.mp3?rlkey=kjkxhw0c7734lg77ci9jxliuh&raw=1"
+    "cover": "images/covers/lucas-harlow-still-in-motion-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/1gj8jf7yxqjt2olbn9cuz/Lucas-Harlow-10-Still-in-Motion.mp3?rlkey=kjkxhw0c7734lg77ci9jxliuh&raw=1",
+    "videos": []
   },
   {
     "id": "home_again",
@@ -125,11 +135,12 @@
     "title": "Home Again",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-home-again-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/65324zr7hizkhhkky9y9l/Lucas-Harlow-11-Home-Again.mp3?rlkey=myrckbnyq5k1niiwc0d49r68p&raw=1"
+    "cover": "images/covers/lucas-harlow-home-again-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/65324zr7hizkhhkky9y9l/Lucas-Harlow-11-Home-Again.mp3?rlkey=myrckbnyq5k1niiwc0d49r68p&raw=1",
+    "videos": []
   },
   {
     "id": "daydreams",
@@ -137,11 +148,12 @@
     "title": "Daydreams",
     "artist": "Lucas Harlow",
     "album": "Daydreams",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-daydreams-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-daydreams-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/wdpd01cqpcgcz9gsh7s5y/Lucas-Harlow-12-Daydreams.mp3?rlkey=qeo5kzcb7xd3hevdw0nz3mh41&raw=1"
+    "cover": "images/covers/lucas-harlow-daydreams-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/wdpd01cqpcgcz9gsh7s5y/Lucas-Harlow-12-Daydreams.mp3?rlkey=qeo5kzcb7xd3hevdw0nz3mh41&raw=1",
+    "videos": []
   },
   {
     "id": "the_quiet_room",
@@ -149,11 +161,12 @@
     "title": "The Quiet Room",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-the-quiet-room-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/5n8k8dpv6eo5oscz36mk4/01-The-Quiet-Room-Mastered-MP3.mp3?rlkey=kj82vma19paw7xb7xeya8nq1n&raw=1"
+    "cover": "images/covers/lucas-harlow-the-quiet-room-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/5n8k8dpv6eo5oscz36mk4/01-The-Quiet-Room-Mastered-MP3.mp3?rlkey=kj82vma19paw7xb7xeya8nq1n&raw=1",
+    "videos": []
   },
   {
     "id": "light_in_the_air",
@@ -161,11 +174,12 @@
     "title": "Light in the Air",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-light-in-the-air-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/fb2a28cu0442zkfgkzfbr/02-Light-in-the-Air-Mastered-MP3.mp3?rlkey=dd8lvvvyuuzpn512ib3lymazl&raw=1"
+    "cover": "images/covers/lucas-harlow-light-in-the-air-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/fb2a28cu0442zkfgkzfbr/02-Light-in-the-Air-Mastered-MP3.mp3?rlkey=dd8lvvvyuuzpn512ib3lymazl&raw=1",
+    "videos": []
   },
   {
     "id": "before_we_spoke",
@@ -173,11 +187,12 @@
     "title": "Before We Spoke",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-before-we-spoke-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/kfgj465nlhyv58wrn2bzo/03-Before-We-Spoke-Mastered-MP3.mp3?rlkey=msah1q0q8hhy7vy07jaowa2ms&raw=1"
+    "cover": "images/covers/lucas-harlow-before-we-spoke-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/kfgj465nlhyv58wrn2bzo/03-Before-We-Spoke-Mastered-MP3.mp3?rlkey=msah1q0q8hhy7vy07jaowa2ms&raw=1",
+    "videos": []
   },
   {
     "id": "a_window_left_open",
@@ -185,11 +200,12 @@
     "title": "A Window Left Open",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-a-window-left-open-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/og2fvr1jon3q248sxrvhp/04-A-Window-Left-Open-Mastered-MP3.mp3?rlkey=h239lbrbs5hqp118phh0qa0zs&raw=1"
+    "cover": "images/covers/lucas-harlow-a-window-left-open-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/og2fvr1jon3q248sxrvhp/04-A-Window-Left-Open-Mastered-MP3.mp3?rlkey=h239lbrbs5hqp118phh0qa0zs&raw=1",
+    "videos": []
   },
   {
     "id": "you_werent_there",
@@ -197,11 +213,12 @@
     "title": "You Weren't There",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-you-werent-there-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/w7lnpqktzkxqy4za3k05q/05-You-Weren-t-There-Mastered-MP3.mp3?rlkey=svysm00q5ujvrkzkqfovj3acd&raw=1"
+    "cover": "images/covers/lucas-harlow-you-werent-there-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/w7lnpqktzkxqy4za3k05q/05-You-Weren-t-There-Mastered-MP3.mp3?rlkey=svysm00q5ujvrkzkqfovj3acd&raw=1",
+    "videos": []
   },
   {
     "id": "the_way_it_went",
@@ -209,11 +226,12 @@
     "title": "The Way it Went",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-the-way-it-went-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/0gjxa7hlzg26dnqd6nc2u/06-The-Way-it-Went-Mastered-MP3.mp3?rlkey=7yuze4tg3hjgesbwm3bb7t9w9&raw=1"
+    "cover": "images/covers/lucas-harlow-the-way-it-went-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/0gjxa7hlzg26dnqd6nc2u/06-The-Way-it-Went-Mastered-MP3.mp3?rlkey=7yuze4tg3hjgesbwm3bb7t9w9&raw=1",
+    "videos": []
   },
   {
     "id": "where_the_light_comes_in",
@@ -221,11 +239,12 @@
     "title": "Where The Light Comes In",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-where-the-light-comes-in-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/5fu18ekpa7q07s7om4sx2/07-Where-The-Light-Comes-In-Mastered-MP3.mp3?rlkey=14drw22usuepnoy6n2vq21sjl&raw=1"
+    "cover": "images/covers/lucas-harlow-where-the-light-comes-in-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/5fu18ekpa7q07s7om4sx2/07-Where-The-Light-Comes-In-Mastered-MP3.mp3?rlkey=14drw22usuepnoy6n2vq21sjl&raw=1",
+    "videos": []
   },
   {
     "id": "nothing_needed_saying",
@@ -233,11 +252,12 @@
     "title": "Nothing Needed Saying",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-nothing-needed-saying-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/056tf0yu69ewibsfkqw6r/08-Nothing-Needed-Saying-Mastered-MP3.mp3?rlkey=bv4vfamxadw7elxj8uhc4cltv&raw=1"
+    "cover": "images/covers/lucas-harlow-nothing-needed-saying-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/056tf0yu69ewibsfkqw6r/08-Nothing-Needed-Saying-Mastered-MP3.mp3?rlkey=bv4vfamxadw7elxj8uhc4cltv&raw=1",
+    "videos": []
   },
   {
     "id": "fading_into_afternoon",
@@ -245,11 +265,12 @@
     "title": "Fading into Afternoon",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-fading-into-afternoon-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/5gr8qo3vzwyg8ihdt5zau/09-Fading-into-Afternoon-Mastered-MP3.mp3?rlkey=adu1yqxflzg9cowz3wsitwh3b&raw=1"
+    "cover": "images/covers/lucas-harlow-fading-into-afternoon-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/5gr8qo3vzwyg8ihdt5zau/09-Fading-into-Afternoon-Mastered-MP3.mp3?rlkey=adu1yqxflzg9cowz3wsitwh3b&raw=1",
+    "videos": []
   },
   {
     "id": "i_still_remember",
@@ -257,11 +278,12 @@
     "title": "I Still Remember",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-I-still-remember-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/p8tdcq9trwybxvuyx6qfk/10-I-Still-Remember-Mastered-MP3.mp3?rlkey=lco2veukh63bn22tuwvcirkwi&raw=1"
+    "cover": "images/covers/lucas-harlow-I-still-remember-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/p8tdcq9trwybxvuyx6qfk/10-I-Still-Remember-Mastered-MP3.mp3?rlkey=lco2veukh63bn22tuwvcirkwi&raw=1",
+    "videos": []
   },
   {
     "id": "the_light_between_us",
@@ -269,11 +291,12 @@
     "title": "The Light Between Us",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-the-light-between-us-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/e3lww3yvkxkjobis6bnf5/11-The-Light-Between-Us-Mastered-MP3.mp3?rlkey=ogz1nz8muxcicsbi46tf88bp7&raw=1"
+    "cover": "images/covers/lucas-harlow-the-light-between-us-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/e3lww3yvkxkjobis6bnf5/11-The-Light-Between-Us-Mastered-MP3.mp3?rlkey=ogz1nz8muxcicsbi46tf88bp7&raw=1",
+    "videos": []
   },
   {
     "id": "the_room_after",
@@ -281,11 +304,12 @@
     "title": "The Room After",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-the-room-right-after-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/zwc0xnq3s2p7ddhuhsnyr/12-The-Room-After-Mastered-MP3.mp3?rlkey=bd76byrs7wz14hptkid4tx8s1&raw=1"
+    "cover": "images/covers/lucas-harlow-the-room-right-after-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/zwc0xnq3s2p7ddhuhsnyr/12-The-Room-After-Mastered-MP3.mp3?rlkey=bd76byrs7wz14hptkid4tx8s1&raw=1",
+    "videos": []
   },
   {
     "id": "didnt_feel_the_end",
@@ -293,11 +317,12 @@
     "title": "Didn't Feel The End",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-didnt-feel-the-end-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/nz3geomuyg4ztcmd9c8q5/13-Didn-t-Feel-The-End-Mastered-MP3.mp3?rlkey=83hign3mxsssr0lk2sto1m1z6&raw=1"
+    "cover": "images/covers/lucas-harlow-didnt-feel-the-end-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/nz3geomuyg4ztcmd9c8q5/13-Didn-t-Feel-The-End-Mastered-MP3.mp3?rlkey=83hign3mxsssr0lk2sto1m1z6&raw=1",
+    "videos": []
   },
   {
     "id": "where_the_light_stayed",
@@ -305,10 +330,11 @@
     "title": "Where the Light Stayed",
     "artist": "Lucas Harlow",
     "album": "Yearning",
-    "albumCover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-yearning-ALBUM-cover.png",
+    "albumCover": "images/covers/lucas-harlow-yearning-ALBUM-cover.png",
     "type": "Latest Single",
     "isLatest": true,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/covers/lucas-harlow-where-the-light-stayed-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/6lbt6f7aju95mqwvv7mm7/14-Where-the-Light-Stayed-Mastered-MP3.mp3?rlkey=pxgumpojrig7tz7wdo19ve5a0&raw=1"
+    "cover": "images/covers/lucas-harlow-where-the-light-stayed-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/6lbt6f7aju95mqwvv7mm7/14-Where-the-Light-Stayed-Mastered-MP3.mp3?rlkey=pxgumpojrig7tz7wdo19ve5a0&raw=1",
+    "videos": []
   }
 ]
