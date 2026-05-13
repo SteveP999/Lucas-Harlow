@@ -1,21 +1,10 @@
 {
   "name": "Lucas Harlow",
   "short_name": "Lucas Harlow",
-  "description": "New Age Instrumental Piano",
+  "description": "Lucas Harlow on Hello Texas Records",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#07090F",
-  "theme_color": "#7BA3CC",
-  "icons": [
-    {
-      "src": "images/logos/lucas-harlow-logo.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "images/logos/lucas-harlow-logo.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+  "background_color": "#090806",
+  "theme_color": "#d49a25",
+  "icons": []
 }

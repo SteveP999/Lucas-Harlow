@@ -1,10 +1,11 @@
 {
-  "title": "Where the Light Stayed",
+  "title": "First Light",
   "artist": "Lucas Harlow",
-  "album": "Yearning",
+  "album": "Daydreams",
   "type": "Latest Single",
-  "cover": "images/covers/lucas-harlow-where-the-light-stayed-cover.png",
-  "image": "images/covers/lucas-harlow-where-the-light-stayed-cover.png",
-  "audio": "https://www.dropbox.com/scl/fi/6lbt6f7aju95mqwvv7mm7/14-Where-the-Light-Stayed-Mastered-MP3.mp3?rlkey=pxgumpojrig7tz7wdo19ve5a0&raw=1",
-  "audioSrc": "https://www.dropbox.com/scl/fi/6lbt6f7aju95mqwvv7mm7/14-Where-the-Light-Stayed-Mastered-MP3.mp3?rlkey=pxgumpojrig7tz7wdo19ve5a0&raw=1"
+  "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-first-light-cover.png",
+  "image": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-first-light-cover.png",
+  "audio": "https://www.dropbox.com/scl/fi/gu9xec1p2tki4vzdfglap/Lucas-Harlow-01-First-Light.mp3?rlkey=53mo20k75q1pn3fj6oeozf3t4&raw=1",
+  "audioSrc": "https://www.dropbox.com/scl/fi/gu9xec1p2tki4vzdfglap/Lucas-Harlow-01-First-Light.mp3?rlkey=53mo20k75q1pn3fj6oeozf3t4&raw=1",
+  "videos": []
 }
