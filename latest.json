@@ -3,8 +3,8 @@
   "artist": "Lucas Harlow",
   "album": "Daydreams",
   "type": "Latest Single",
-  "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-awaken-cover.png",
-  "image": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-awaken-cover.png",
+  "cover": "images/covers/lucas-harlow-awaken-cover.png",
+  "image": "images/covers/lucas-harlow-awaken-cover.png",
   "audio": "https://www.dropbox.com/scl/fi/jwoh4m3v4w1hj9ibe7vnv/Lucas-Harlow-05-Awaken.mp3?rlkey=2aw2ftgw1mkkxtj9q31p41fnk&raw=1",
   "audioSrc": "https://www.dropbox.com/scl/fi/jwoh4m3v4w1hj9ibe7vnv/Lucas-Harlow-05-Awaken.mp3?rlkey=2aw2ftgw1mkkxtj9q31p41fnk&raw=1",
   "videos": []
