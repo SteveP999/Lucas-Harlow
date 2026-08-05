@@ -17,7 +17,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "carry_on",
@@ -37,7 +38,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "daydreams",
@@ -57,7 +59,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "drifting",
@@ -77,7 +80,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "first_light",
@@ -97,7 +101,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "golden_air",
@@ -117,7 +122,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "home_again",
@@ -137,7 +143,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "open_sky",
@@ -157,7 +164,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "quiet_path",
@@ -177,7 +185,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "soft_horizon",
@@ -197,7 +206,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "still_in_motion",
@@ -217,7 +227,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "stillwater",
@@ -237,7 +248,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-the-promise",
@@ -257,7 +269,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-the-beginning",
@@ -277,7 +290,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-red-sea",
@@ -297,7 +311,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-songs-in-the-wilderness",
@@ -317,7 +332,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-wise-mans-path",
@@ -337,7 +353,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-fields-of-bethlehem",
@@ -357,7 +374,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-the-hidden-queen",
@@ -377,7 +395,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-the-watchman",
@@ -397,7 +416,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-forty-years",
@@ -417,7 +437,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-the-final-speech",
@@ -437,7 +458,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-the-garden-at-night",
@@ -457,7 +479,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "lucas-harlow-selah",
@@ -477,7 +500,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "a_window_left_open",
@@ -497,7 +521,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "before_we_spoke",
@@ -517,7 +542,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "didnt_feel_the_end",
@@ -537,7 +563,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "fading_into_afternoon",
@@ -557,7 +584,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "i_still_remember",
@@ -577,7 +605,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "light_in_the_air",
@@ -597,7 +626,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "nothing_needed_saying",
@@ -617,7 +647,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "the_light_between_us",
@@ -637,7 +668,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "the_quiet_room",
@@ -657,7 +689,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "the_room_after",
@@ -677,7 +710,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "the_way_it_went",
@@ -697,7 +731,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "where_the_light_comes_in",
@@ -717,7 +752,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "where_the_light_stayed",
@@ -737,7 +773,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "you_werent_there",
@@ -757,6 +794,7 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   }
 ]
