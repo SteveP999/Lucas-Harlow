@@ -922,5 +922,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "lucas-harlow-if-tonight-would-never-end",
+    "num": "45",
+    "title": "If Tonight Would Never End",
+    "artist": "Lucas Harlow",
+    "album": "After Hours - The Songs of Vincent Cole",
+    "trackNumber": 45,
+    "albumOrder": 45,
+    "albumCover": "images/covers/lucas-harlow-after-hours-the-songs-of-vincent-cole-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/lucas-harlow-if-tonight-would-never-end-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/g7sabrk1rp2fren8uishy/If-Tonight-Would-Never-End-Vincent-Cole-Instrumental.mp3?rlkey=s5x4ior4b9sus9srq36k5pa0o&st=3pg5efgq&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/g7sabrk1rp2fren8uishy/If-Tonight-Would-Never-End-Vincent-Cole-Instrumental.mp3?rlkey=s5x4ior4b9sus9srq36k5pa0o&st=3pg5efgq&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
