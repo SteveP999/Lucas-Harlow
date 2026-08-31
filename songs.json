@@ -901,5 +901,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "lucas-harlow-trouble-in-a-black-dress",
+    "num": "44",
+    "title": "Trouble in a Black Dress",
+    "artist": "Lucas Harlow",
+    "album": "After Hours - The Songs of Vincent Cole",
+    "trackNumber": 44,
+    "albumOrder": 44,
+    "albumCover": "images/covers/lucas-harlow-after-hours-the-songs-of-vincent-cole-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/lucas-harlow-trouble-in-a-black-dress-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/mh61lzsse72hbcewrnorc/Trouble-in-a-Black-Dress-Vincent-Cole-Instrumental.mp3?rlkey=pmob8y8hsybma5mjw3lk7rsuu&st=u47vkcfr&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/mh61lzsse72hbcewrnorc/Trouble-in-a-Black-Dress-Vincent-Cole-Instrumental.mp3?rlkey=pmob8y8hsybma5mjw3lk7rsuu&st=u47vkcfr&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
