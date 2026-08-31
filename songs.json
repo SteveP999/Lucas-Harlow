@@ -144,7 +144,11 @@
     "includeOnHomepage": true,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "lucas-harlow-slow-on-my-lips",
