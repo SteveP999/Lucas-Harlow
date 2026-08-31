@@ -859,5 +859,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "lucas-harlow-last-call-for-beautiful",
+    "num": "42",
+    "title": "Last Call for Beautiful",
+    "artist": "Lucas Harlow",
+    "album": "After Hours - The Songs of Vincent Cole",
+    "trackNumber": 42,
+    "albumOrder": 42,
+    "albumCover": "images/covers/lucas-harlow-after-hours-the-songs-of-vincent-cole-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/lucas-harlow-last-call-for-beautiful-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/iwv72q4cgp4te5h1056cz/Last-Call-For-Beautiful-Vincent-Cole-Instrumental.mp3?rlkey=8e3t5hznquu4ztemqb9epsgo7&st=gfzgu3lb&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/iwv72q4cgp4te5h1056cz/Last-Call-For-Beautiful-Vincent-Cole-Instrumental.mp3?rlkey=8e3t5hznquu4ztemqb9epsgo7&st=gfzgu3lb&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
