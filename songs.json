@@ -796,5 +796,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "lucas-harlow-right-where-i-belong",
+    "num": "39",
+    "title": "Right Where I Belong",
+    "artist": "Lucas Harlow",
+    "album": "After Hours - The Songs of Vincent Cole",
+    "trackNumber": 39,
+    "albumOrder": 39,
+    "albumCover": "images/covers/lucas-harlow-after-hours-the-songs-of-vincent-cole-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/lucas-harlow-right-where-i-belong-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/aiscvlagexktgp6obxy4c/Right-Where-I-Belong-Vincent-Cole-Instrumental.mp3?rlkey=o4hi3kbkb8zsjajr5zn3ks36o&st=iibpth11&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/aiscvlagexktgp6obxy4c/Right-Where-I-Belong-Vincent-Cole-Instrumental.mp3?rlkey=o4hi3kbkb8zsjajr5zn3ks36o&st=iibpth11&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
