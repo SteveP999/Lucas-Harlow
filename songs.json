@@ -985,5 +985,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "lucas-harlow-let-them-talk",
+    "num": "48",
+    "title": "Let Them Talk",
+    "artist": "Lucas Harlow",
+    "album": "After Hours - The Songs of Vincent Cole",
+    "trackNumber": 48,
+    "albumOrder": 48,
+    "albumCover": "images/covers/lucas-harlow-after-hours-the-songs-of-vincent-cole-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/lucas-harlow-let-them-talk-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/w35sjb96y4kc8rnr2asd6/Let-Them-Talk-Vincent-Cole-Instrumental.mp3?rlkey=y7gstvkqxw88p9590xr9hgdo1&st=df1ylclv&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/w35sjb96y4kc8rnr2asd6/Let-Them-Talk-Vincent-Cole-Instrumental.mp3?rlkey=y7gstvkqxw88p9590xr9hgdo1&st=df1ylclv&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
