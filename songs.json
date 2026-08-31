@@ -1006,5 +1006,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "lucas-harlow-make-it-look-easy",
+    "num": "49",
+    "title": "Make It Look Easy",
+    "artist": "Lucas Harlow",
+    "album": "After Hours - The Songs of Vincent Cole",
+    "trackNumber": 49,
+    "albumOrder": 49,
+    "albumCover": "images/covers/lucas-harlow-after-hours-the-songs-of-vincent-cole-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/lucas-harlow-make-it-look-easy-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/5om9ryfw4xccolbiuq5hi/Make-it-Look-Easy-Vincent-Cole-Instrumental.mp3?rlkey=d3qou38ublmujo027c3kczjvy&st=7myw2nva&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/5om9ryfw4xccolbiuq5hi/Make-it-Look-Easy-Vincent-Cole-Instrumental.mp3?rlkey=d3qou38ublmujo027c3kczjvy&st=7myw2nva&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
