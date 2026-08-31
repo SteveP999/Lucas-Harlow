@@ -1027,5 +1027,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "lucas-harlow-the-last-song",
+    "num": "50",
+    "title": "The Last Song",
+    "artist": "Lucas Harlow",
+    "album": "After Hours - The Songs of Vincent Cole",
+    "trackNumber": 50,
+    "albumOrder": 50,
+    "albumCover": "images/covers/lucas-harlow-after-hours-the-songs-of-vincent-cole-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/lucas-harlow-the-last-song-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/q4zx7x6vpr6vf6p5s2ptz/The-Last-Song-Vincent-Cole-Instrumental.mp3?rlkey=bm1eb51ry39swehurgxx959yx&st=cfipme5b&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/q4zx7x6vpr6vf6p5s2ptz/The-Last-Song-Vincent-Cole-Instrumental.mp3?rlkey=bm1eb51ry39swehurgxx959yx&st=cfipme5b&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
