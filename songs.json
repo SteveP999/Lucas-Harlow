@@ -943,5 +943,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "lucas-harlow-just-one-more-dance",
+    "num": "46",
+    "title": "Just One More Dance",
+    "artist": "Lucas Harlow",
+    "album": "After Hours - The Songs of Vincent Cole",
+    "trackNumber": 46,
+    "albumOrder": 46,
+    "albumCover": "images/covers/lucas-harlow-after-hours-the-songs-of-vincent-cole-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/lucas-harlow-just-one-more-dance-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/sdehj0x34p53eholxz37x/Just-One-More-Dance-Vincent-Cole-Instrumental.mp3?rlkey=216brshrh5lzd49z55bi59q5l&st=gwmvyuoh&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/sdehj0x34p53eholxz37x/Just-One-More-Dance-Vincent-Cole-Instrumental.mp3?rlkey=216brshrh5lzd49z55bi59q5l&st=gwmvyuoh&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
