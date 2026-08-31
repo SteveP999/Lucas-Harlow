@@ -964,5 +964,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "lucas-harlow-just-watch-me-walk-away",
+    "num": "47",
+    "title": "Just Watch Me Walk Away",
+    "artist": "Lucas Harlow",
+    "album": "After Hours - The Songs of Vincent Cole",
+    "trackNumber": 47,
+    "albumOrder": 47,
+    "albumCover": "images/covers/lucas-harlow-after-hours-the-songs-of-vincent-cole-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/lucas-harlow-just-watch-me-walk-away-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/8knmvan41vl61yd4btqhr/Just-Watch-Me-Walk-Away-Vincent-Cole-Instrumental.mp3?rlkey=z4p83k9m69v7osci67j7k6j8n&st=id1679o4&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/8knmvan41vl61yd4btqhr/Just-Watch-Me-Walk-Away-Vincent-Cole-Instrumental.mp3?rlkey=z4p83k9m69v7osci67j7k6j8n&st=id1679o4&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
