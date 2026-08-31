@@ -817,5 +817,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "lucas-harlow-too-late-to-behave",
+    "num": "40",
+    "title": "Too Late To Behave",
+    "artist": "Lucas Harlow",
+    "album": "After Hours - The Songs of Vincent Cole",
+    "trackNumber": 40,
+    "albumOrder": 40,
+    "albumCover": "images/covers/lucas-harlow-after-hours-the-songs-of-vincent-cole-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/lucas-harlow-too-late-to-behave-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/f7jgtd7501cpvx96nlx8w/Too-Late-to-Behave-Vincent-Cole-Instrumental.mp3?rlkey=zg18g88kuprqp6kwfjluupzte&st=cbi09sgs&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/f7jgtd7501cpvx96nlx8w/Too-Late-to-Behave-Vincent-Cole-Instrumental.mp3?rlkey=zg18g88kuprqp6kwfjluupzte&st=cbi09sgs&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
