@@ -218,7 +218,11 @@
     "includeOnHomepage": true,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "lucas-harlow-too-late-to-behave",
