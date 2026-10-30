@@ -296,7 +296,7 @@
   {
     "id": "lucas-harlow-red-sea",
     "num": "27",
-    "title": "Red Sea",
+    "title": "The Red Sea",
     "artist": "Lucas Harlow",
     "album": "The Promise",
     "trackNumber": 3,
@@ -312,7 +312,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "lucas-harlow-songs-in-the-wilderness",
