@@ -2,11 +2,11 @@
   "artist": "Lucas Harlow",
   "latestUrl": "latest.json",
   "featuredTrack": {
-    "title": "The Last Song",
+    "title": "Buy the Moon Another Round",
     "artist": "Lucas Harlow",
-    "album": "After Hours - The Songs of Vincent Cole",
-    "cover": "images/covers/lucas-harlow-the-last-song-cover.png",
-    "audioSrc": "https://www.dropbox.com/scl/fi/q4zx7x6vpr6vf6p5s2ptz/The-Last-Song-Vincent-Cole-Instrumental.mp3?rlkey=bm1eb51ry39swehurgxx959yx&st=cfipme5b&raw=1",
+    "album": "Last Call - The Songs of Vincent Cole",
+    "cover": "images/covers/lucas-harlow-buy-the-moon-another-round-cover.png",
+    "audioSrc": "https://www.dropbox.com/scl/fi/elaj4gjgd8e33qgear1y4/lucas-harlow-Buy-The-Moon-Another-Round-MP3-mastered.mp3?rlkey=g55tkp4z67k6f6t7cxpjemhs8&raw=1",
     "videos": []
   },
   "tracks": [
@@ -123,7 +123,7 @@
       "videos": []
     },
     {
-      "title": "Red Sea",
+      "title": "The Red Sea",
       "artist": "Lucas Harlow",
       "album": "The Promise",
       "cover": "images/covers/lucas-harlow-red-sea-cover.png",
